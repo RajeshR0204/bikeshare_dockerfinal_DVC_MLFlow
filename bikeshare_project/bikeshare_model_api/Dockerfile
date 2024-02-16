@@ -5,7 +5,7 @@ FROM python:3.10
 ADD . .
 
 # WORK DIR
-WORKDIR /bikeshare_model_api
+WORKDIR /bikeshare_project/bikeshare_model_api
 
 # update pip
 RUN pip install --upgrade pip
