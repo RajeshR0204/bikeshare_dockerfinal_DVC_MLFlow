@@ -1,6 +1,9 @@
-docker build . -t rajeshr0204/bikeshare-fastapi:latest    
+#docker build . -t rajeshr0204/bikeshare-fastapi:latest    
 
+docker build . -f bikeshare_model_api/Dockerfile -t rajeshr0204/bikeshare-fastapi:latest
 
 docker run -it -d -p 8001:8001 --name=bikeshareapp rajeshr0204/bikeshare-fastapi
 
-doker ps
+doker ps 
+
+Comments
