@@ -1,0 +1,6 @@
+docker build . -t rajeshr0204/bikeshare-fastapi:latest    
+
+
+docker run -it -d -p 8001:8001 --name=bikeshareapp rajeshr0204/bikeshare-fastapi
+
+doker ps
